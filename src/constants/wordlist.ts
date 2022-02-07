@@ -61,8 +61,6 @@ export const WORDS = [
 
   'eagle',
 
-  'egret',
-
   'filly',
 
   'fitch',
@@ -240,4 +238,6 @@ export const WORDS = [
   'whelp',
 
   'zebra',
+
+  'egret',
 ]

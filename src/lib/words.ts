@@ -1,10 +1,10 @@
 import { WORDS } from '../constants/wordlist'
-import { VALIDGUESSES } from '../constants/validGuesses'
+import { VALID_GUESSES } from '../constants/validGuesses'
 
 export const isWordInWordList = (word: string) => {
   return (
     WORDS.includes(word.toLowerCase()) ||
-    VALIDGUESSES.includes(word.toLowerCase())
+    VALID_GUESSES.includes(word.toLowerCase())
   )
 }
 
@@ -19,9 +19,6 @@ export const getWordOfDay = () => {
   const msInDay = 86400000
   const index = Math.floor((now - epochMs) / msInDay)
   const nextday = (index + 1) * msInDay + epochMs
-  // console.log(WORDS[index % WORDS.length].toUpperCase())
-  // console.log(VALIDGUESSES.includes(WORDS[index % WORDS.length]))
-  // console.log(WORDS.includes(WORDS[index % WORDS.length]))
 
   return {
     solution: WORDS[index % WORDS.length].toUpperCase(),

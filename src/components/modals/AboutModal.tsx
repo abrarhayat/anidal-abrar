@@ -9,19 +9,26 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        This is an open source word guessing game derived from -{' '}
-        <a
-          href="https://github.com/hannahcode/GAME"
-          className="underline font-bold"
-        >
-          This source
-        </a>
-        {' and '}
+        This is an open source version of the word guessing game we all know and
+        love.
+        <br></br>
+        <br></br>
         <a
           href="https://github.com/abrarhayat/anidal"
           className="underline font-bold"
+          target={'_blank'}
+          rel="noreferrer"
         >
-          this is the source for the current iteration
+          This is the source for the current iteration
+        </a>
+        {' and '}
+        <a
+          href="https://github.com/cwackerfuss/react-wordle"
+          className="underline font-bold"
+          target={'_blank'}
+          rel="noreferrer"
+        >
+          this is the base source
         </a>{' '}
         <span>
           <br></br>
