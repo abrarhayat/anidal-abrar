@@ -1,243 +1,243 @@
 export const WORDS = [
-  'addax',
-
-  'akita',
-
-  'aguti',
-
-  'ammon',
-
-  'bison',
-
-  'bitch',
-
-  'bongo',
-
-  'bobac',
-
-  'booby',
-
-  'brock',
-
-  'bruin',
-
-  'burro',
-
-  'camel',
-
-  'canis',
-
-  'chimp',
-
-  'chiru',
-
-  'civet',
-
-  'coati',
-
-  'cobra',
-
-  'coney',
-
-  'coypu',
-
-  'crone',
-
-  'crane',
-
-  'cuddy',
-
-  'chick',
-
-  'daman',
-
-  'dhole',
-
-  'dingo',
-
-  'drill',
-
-  'eland',
-
-  'eagle',
-
-  'filly',
-
-  'fitch',
-
-  'fossa',
-
-  'gayal',
-
-  'genet',
-
-  'goral',
-
-  'goose',
-
   'grice',
-
-  'gryce',
-
-  'hinny',
-
-  'heron',
-
-  'hippo',
-
-  'horse',
-
-  'hutia',
-
-  'hyena',
-
-  'hyrax',
-
-  'indri',
-
-  'izard',
-
-  'jocko',
-
-  'kaama',
-
-  'kiang',
-
-  'koala',
-
-  'kulan',
-
-  'kyloe',
-
-  'lemur',
-
-  'liger',
-
-  'llama',
-
-  'macaw',
-
-  'magot',
-
-  'manis',
-
-  'manul',
-
-  'mhorr',
-
-  'moose',
-
-  'morse',
-
-  'mouse',
-
-  'nagor',
-
-  'nyala',
-
-  'okapi',
-
-  'orang',
-
-  'oribi',
-
-  'otary',
-
-  'otter',
-
-  'ounce',
 
   'panda',
 
-  'pekan',
+  'tapir',
 
-  'phoca',
+  'aguti',
 
-  'pongo',
+  'eagle',
 
-  'potto',
+  'kulan',
 
-  'puppy',
-
-  'quail',
-
-  'quoll',
-
-  'ratel',
-
-  'rhino',
-
-  'royal',
-
-  'sable',
-
-  'saiga',
-
-  'sajou',
-
-  'sasin',
-
-  'serow',
-
-  'sheep',
-
-  'shoat',
-
-  'shote',
-
-  'shrew',
-
-  'skunk',
-
-  'sloth',
-
-  'sorel',
-
-  'spade',
-
-  'spado',
-
-  'steer',
+  'fitch',
 
   'stirk',
 
-  'stoat',
+  'chimp',
 
-  'swine',
+  'coati',
+
+  'coney',
+
+  'bongo',
 
   'snake',
 
-  'taipan',
+  'macaw',
 
-  'tabby',
+  'egret',
 
-  'takin',
+  'brock',
 
-  'tapir',
+  'nagor',
 
-  'tatou',
-
-  'tahar',
-
-  'tiger',
+  'royal',
 
   'tigon',
 
+  'nyala',
+
   'urial',
+
+  'orang',
+
+  'civet',
+
+  'rhino',
+
+  'pekan',
+
+  'taipan',
+
+  'fossa',
+
+  'addax',
 
   'urson',
 
-  'vison',
-
-  'vixen',
-
-  'viper',
-
-  'whale',
+  'canis',
 
   'whelp',
 
+  'eland',
+
+  'lemur',
+
+  'manis',
+
+  'cuddy',
+
+  'kyloe',
+
+  'filly',
+
+  'dingo',
+
+  'phoca',
+
+  'okapi',
+
+  'hyena',
+
+  'spade',
+
+  'saiga',
+
+  'sheep',
+
+  'potto',
+
+  'koala',
+
+  'manul',
+
+  'shrew',
+
+  'oribi',
+
+  'bitch',
+
+  'burro',
+
+  'whale',
+
+  'otary',
+
+  'mouse',
+
+  'gayal',
+
+  'bison',
+
+  'takin',
+
+  'hyrax',
+
+  'sasin',
+
+  'coypu',
+
+  'vixen',
+
+  'izard',
+
+  'heron',
+
+  'shoat',
+
+  'sable',
+
+  'camel',
+
+  'tabby',
+
+  'spado',
+
+  'vison',
+
+  'mhorr',
+
+  'hippo',
+
+  'sloth',
+
+  'crane',
+
+  'llama',
+
+  'chick',
+
+  'quoll',
+
+  'bobac',
+
+  'viper',
+
+  'magot',
+
+  'hinny',
+
+  'genet',
+
+  'daman',
+
+  'kaama',
+
+  'tiger',
+
   'zebra',
 
-  'egret',
+  'shote',
+
+  'ratel',
+
+  'morse',
+
+  'hutia',
+
+  'tatou',
+
+  'quail',
+
+  'goral',
+
+  'jocko',
+
+  'crone',
+
+  'moose',
+
+  'goose',
+
+  'pongo',
+
+  'ammon',
+
+  'ounce',
+
+  'sajou',
+
+  'liger',
+
+  'kiang',
+
+  'tahar',
+
+  'dhole',
+
+  'akita',
+
+  'sorel',
+
+  'steer',
+
+  'swine',
+
+  'serow',
+
+  'bruin',
+
+  'indri',
+
+  'horse',
+
+  'skunk',
+
+  'gryce',
+
+  'stoat',
+
+  'cobra',
+
+  'booby',
+
+  'otter',
+
+  'drill',
+
+  'puppy',
+
+  'chiru',
 ]
