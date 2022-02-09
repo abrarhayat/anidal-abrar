@@ -272,4 +272,26 @@ export const WORDS = [
   'silky',
 
   'korat',
+
+  'satyr',
+
+  'queen',
+
+  'larva',
+
+  'aphid',
+
+  'drone',
+
+  'midge',
+
+  'imago',
+
+  'aphis',
+
+  'snail',
+
+  'louse',
+
+  'midge',
 ]

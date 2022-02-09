@@ -350,4 +350,34 @@ export const VALID_GUESSES = [
   'asian',
 
   'somali',
+
+  'satyr',
+
+  'queen',
+
+  'larva',
+
+  'aphid',
+
+  'drone',
+
+  'midge',
+
+  'musca',
+
+  'imago',
+
+  'aphis',
+
+  'snail',
+
+  'oubit',
+
+  'louse',
+
+  'midge',
+
+  'oobit',
+
+  'leech',
 ]
