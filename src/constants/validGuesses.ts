@@ -304,4 +304,50 @@ export const VALID_GUESSES = [
   'wrens',
 
   'zebra',
+
+  'cairn ',
+
+  'billy',
+
+  'roach',
+
+  'mcnab',
+
+  'moths',
+
+  'kerry',
+
+  'jindo',
+
+  'alano',
+
+  'irish',
+
+  'husky',
+
+  'cesky',
+
+  'plott',
+
+  'corgi',
+
+  'boxer',
+
+  'dwelf',
+
+  'lykoi',
+
+  'shiba',
+
+  'spitz',
+
+  'silky',
+
+  'korat',
+
+  'lykoi',
+
+  'asian',
+
+  'somali',
 ]

@@ -240,4 +240,36 @@ export const WORDS = [
   'puppy',
 
   'chiru',
+
+  'cairn ',
+
+  'billy',
+
+  'mcnab',
+
+  'somali',
+
+  'kerry',
+
+  'jindo',
+
+  'alano',
+
+  'irish',
+
+  'husky',
+
+  'dwelf',
+
+  'cesky',
+
+  'plott',
+
+  'lykoi',
+
+  'spitz',
+
+  'silky',
+
+  'korat',
 ]
