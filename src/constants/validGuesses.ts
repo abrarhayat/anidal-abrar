@@ -251,8 +251,6 @@ export const VALID_GUESSES = [
 
   'sorel',
 
-  'spade',
-
   'spado',
 
   'steer',
@@ -380,4 +378,52 @@ export const VALID_GUESSES = [
   'oobit',
 
   'leech',
+
+  'gecko',
+
+  'robin',
+
+  'finch',
+
+  'oxeye',
+
+  'mynah',
+
+  'noddy',
+
+  'ousel',
+
+  'stork',
+
+  'pipit',
+
+  'scaup',
+
+  'stilt',
+
+  'stork',
+
+  'snipe',
+
+  'stilt',
+
+  'brant',
+
+  'crake',
+
+  'diver',
+
+  'junco',
+
+  'merle',
+
+  'miner',
+
+  'munia',
+
+  'twite',
+
+  'flies',
+
+  'wasps',
 ]

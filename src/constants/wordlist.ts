@@ -81,8 +81,6 @@ export const WORDS = [
 
   'hyena',
 
-  'spade',
-
   'saiga',
 
   'sheep',
@@ -294,4 +292,46 @@ export const WORDS = [
   'louse',
 
   'midge',
+
+  'gecko',
+
+  'robin',
+
+  'finch',
+
+  'oxeye',
+
+  'mynah',
+
+  'noddy',
+
+  'ousel',
+
+  'stork',
+
+  'pipit',
+
+  'scaup',
+
+  'stilt',
+
+  'stork',
+
+  'snipe',
+
+  'stilt',
+
+  'brant',
+
+  'crake',
+
+  'diver',
+
+  'junco',
+
+  'merle',
+
+  'miner',
+
+  'twite',
 ]
