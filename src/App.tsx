@@ -48,6 +48,7 @@ function App() {
   const [isNotEnoughLetters, setIsNotEnoughLetters] = useState(false)
   const [isStatsModalOpen, setIsStatsModalOpen] = useState(false)
   const [isWordNotFoundAlertOpen, setIsWordNotFoundAlertOpen] = useState(false)
+  const [currentRowClass, setCurrentRowClass] = useState('')
   const [isGameLost, setIsGameLost] = useState(false)
   const [isDarkMode, setIsDarkMode] = useState(
     localStorage.getItem('theme')
@@ -140,8 +141,10 @@ function App() {
 
     if (!isWordInWordList(currentGuess)) {
       setIsWordNotFoundAlertOpen(true)
+      setCurrentRowClass('jiggle')
       return setTimeout(() => {
         setIsWordNotFoundAlertOpen(false)
+        setCurrentRowClass('')
       }, ALERT_TIME_MS)
     }
 
@@ -204,6 +207,7 @@ function App() {
         guesses={guesses}
         currentGuess={currentGuess}
         isRevealing={isRevealing}
+        currentRowClassName={currentRowClass}
       />
       <Keyboard
         onChar={onChar}

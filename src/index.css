@@ -5,6 +5,7 @@
 :root {
   --animation-speed: 1000ms;
   --animation-speed-fast: 500ms;
+  --animation-speed-very-fast: 250ms;
 }
 
 .cell-fill-animation {
@@ -48,6 +49,11 @@ svg:hover {
 .moon:hover {
   animation: swivel linear;
   animation-duration: var(--animation-speed);
+}
+
+.jiggle {
+  animation: jiggle linear;
+  animation-duration: var(--animation-speed-very-fast);
 }
 
 @keyframes revealAbsentCharCell {
@@ -144,6 +150,24 @@ svg:hover {
   }
   50% {
     transform: translate(0, -0.5rem);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes jiggle {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-0.5rem, 0);
+  }
+  50% {
+    transform: translate(0.5rem, 0);
+  }
+  75% {
+    transform: translate(-0.5rem, 0);
   }
   100% {
     transform: translate(0, 0);
