@@ -2,6 +2,7 @@ import { ReactNode } from 'react'
 import classnames from 'classnames'
 import { CharStatus } from '../../lib/statuses'
 import { MAX_WORD_LENGTH, REVEAL_TIME_MS } from '../../constants/settings'
+import { getStoredIsHighContrastMode } from '../../lib/localStorage'
 
 type Props = {
   children?: ReactNode
@@ -21,6 +22,7 @@ export const Key = ({
   isRevealing,
 }: Props) => {
   const keyDelayMs = REVEAL_TIME_MS * MAX_WORD_LENGTH
+  const isHighContrast = getStoredIsHighContrastMode()
 
   const classes = classnames(
     'flex items-center justify-center rounded mx-0.5 text-xs font-bold cursor-pointer select-none dark:text-white',
@@ -28,11 +30,15 @@ export const Key = ({
       'transition ease-in-out': isRevealing,
       'bg-slate-200 dark:bg-gray-600 hover:bg-slate-300 active:bg-slate-400':
         !status,
-      'shadowed bg-slate-400 dark:bg-slate-700 text-white border-slate-400 dark:border-slate-700':
-        status === 'absent',
-      'shadowed bg-lime-500 text-white border-lime-500': status === 'correct',
-      'shadowed bg-yellow-500 dark:bg-lightyellow-700 text-white border-yellow-500 dark:border-lightyellow-700':
-        status === 'present',
+      'bg-slate-400 dark:bg-slate-800 text-white': status === 'absent',
+      'bg-orange-500 hover:bg-orange-600 active:bg-orange-700 text-white':
+        status === 'correct' && isHighContrast,
+      'bg-cyan-500 hover:bg-cyan-600 active:bg-cyan-700 text-white':
+        status === 'present' && isHighContrast,
+      'bg-green-500 hover:bg-green-600 active:bg-green-700 text-white':
+        status === 'correct' && !isHighContrast,
+      'bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 text-white':
+        status === 'present' && !isHighContrast,
     }
   )
 

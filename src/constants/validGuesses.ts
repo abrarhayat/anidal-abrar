@@ -426,4 +426,6 @@ export const VALID_GUESSES = [
   'flies',
 
   'wasps',
+
+  'worms'
 ]
