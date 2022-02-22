@@ -56,16 +56,41 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter T is not in the word in any spot.
       </p>
-
-      <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
+      <br></br>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
         This is an open source version of the word guessing game we all know and
-        love -{' '}
+        love.
+        <br></br>
+        <br></br>
+        <a
+          href="https://github.com/abrarhayat/anidal"
+          className="underline font-bold"
+          target={'_blank'}
+          rel="noreferrer"
+        >
+          This is the source for the current iteration
+        </a>
+        {' and '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
           className="underline font-bold"
+          target={'_blank'}
+          rel="noreferrer"
         >
-          check out the code here
+          this is the base source
         </a>{' '}
+        <span>
+          <br></br>
+          <br></br>Author for this iteration:{' '}
+          <a
+            href="https://abrarhayat.gatsbyjs.io"
+            className="underline font-bold"
+            target={'_blank'}
+            rel="noreferrer"
+          >
+            Abrar Hayat
+          </a>
+        </span>
       </p>
     </BaseModal>
   )
