@@ -2,7 +2,7 @@
 
 This is a clone project of that popular word guessing game we all know and love. However, this variant lets you guess animal names!
 
-## Play the game here: [Anidal Game 🐱](https://anidal-abrarhayat.web.app)
+## Play the game here: [Anidal Game 🐱](https://anidal-abrar.web.app)
 
 ## Derived from here: [Reactle](https://reactle.vercel.app)
 
